@@ -24,23 +24,41 @@
 \datedsubsection{\textbf{哈尔滨工业大学（威海）}, 山东}{2016 -- 至今}
 \textit{学士}\ 计算机科学与技术, 预计 2020 年 6 月毕业
 
-\section{\faUsers\ 项目经历}
-\datedsubsection{\textbf{分布式科学上网姿势}}{2017年9月 -- 2018年1月}
-\role{C, Linux}{实验室项目}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+\section{\faGithubAlt\ 个人项目}
+\datedsubsection{\textbf{MIPS-CPU}}{\url{https://github.com/shuaitq/MIPS-CPU}}
+\role{Verilog}{基于MIPS32 Release 1指令集的五级流水线CPU}
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
+  \item 五级整数流水线，分别是：取指、译码、执行、访存、回写。
+  \item 哈佛结构，分开的指令、数据接口。
+  \item 兼容MIPS32指令集架构，支持MIPS32指令集中的大部分指令。
+  \item 支持延迟转移，大多数指令可以在一个时钟周期内完成。
 \end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2018年1月 -- 2018年2月}
-\role{Java, Android}{实验室项目}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+\datedsubsection{\textbf{Aurora}}{\url{https://github.com/shuaitq/Aurora}}
+\role{C++}{CPU计算光栅化渲染器}
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
+  \item 支持使用json格式定义场景、相机、灯光等参数。
+  \item 采用obj格式模型，ppm格式图片贴图，二次线性差值进行采样，平铺纹理坐标寻址。
+  \item 支持方向光和点光源两种光源。
+  \item 采用Z-Buffer保证渲染正确的顺序，支持背面消影和三角形剔除。
+\end{itemize}
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{P2P虚拟网络安全互联}}{2017年9月 -- 2018年1月}
+\role{C, Linux}{实验室项目}
+基于对等网络设计，能穿透部分种类NAT，支持多种加密算法，实现跨网络安全互联。
+\begin{itemize}
+  \item 参与通信协议设计。
+  \item 与学姐合作实现出第一版可用程序。
+  \item 参与多平台复用SDK架构设计。
+\end{itemize}
+
+\datedsubsection{\textbf{安全WiFi手机App}}{2018年1月 -- 2018年2月}
+\role{Java, Android}{实验室项目}
+根据用户当前网络环境和用户授信列表，在不信任网络环境自动开启加密连接，防止WiFi截取信息。
+\begin{itemize}
+  \item 按照美工设计，实现了整个界面和界面逻辑。
+  \item 对接学长加密连接服务。
 \end{itemize}
 
 % Reference Test
@@ -50,50 +68,21 @@
 %  \item main contribution
 %\end{itemize}
 
-\section{\faGithubAlt\ 个人项目}
-\datedsubsection{\textbf{Aurora}}{\url{https://github.com/shuaitq/Aurora}}
-\role{C++}{CPU计算光栅化渲染器}
-\begin{itemize}
-  \item 支持使用json格式定义场景、相机、灯光等参数。
-  \item 支持obj格式模型，支持ppm格式图片贴图，采用二次线性差值进行采样，使用平铺纹理坐标寻址。
-  \item 支持方向光和点光源两种光源。
-  \item 采用Z-Buffer保证渲染正确的顺序，支持背面消影和三角形剔除
-\end{itemize}
-
-\datedsubsection{\textbf{MIPS-CPU}}{\url{https://github.com/shuaitq/MIPS-CPU}}
-\role{Verilog}{基于MIPS32 Release 1指令集的五级流水线CPU。}
-\begin{itemize}
-  \item 五级整数流水线，分别是：取指、译码、执行、访存、回写。
-  \item 哈佛结构，分开的指令、数据接口。
-  \item 支持延迟转移。
-  \item 兼容MIPS32指令集架构，支持MIPS32指令集中的大部分指令。
-  \item 大多数指令可以在一个时钟周期内完成。
-\end{itemize}
-
-\datedsubsection{\textbf{Game-of-Life}}{\url{https://github.com/shuaitq/Game-of-Life}}
-\role{C++}{康威生命游戏模拟器}
-\begin{itemize}
-  \item 支持通用RLE格式模式文件。
-  \item 能够通过简单的命令行参数设置模拟用的模式文件和模拟次数。
-\end{itemize}
-
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C++ = C > Java = Python = Go > Haskell > Rust
+  \item 编程语言: C++ with C++11 = C > Java = Python = Go > Haskell > Rust
   \item 平台: Linux
   \item 开发: xxx
 \end{itemize}
 
 \section{\faHeartO\ 获奖情况}
 \datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
 
 \section{\faInfo\ 其他}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 技术博客: {http://shuaitq.com}
-  \item GitHub: {https://github.com/shuaitq}
+  \item 博客: {http://shuaitq.com}
   \item 语言: 英语 - 熟练(TOEFL xxx)
 \end{itemize}
 
