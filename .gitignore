@@ -1,15 +1,3 @@
-# Copy this file to the Git repository and rename it ".gitignore".
-# Lines starting with '#' are treated as comments.
-
-############################################
-## USER SCRIPTS AND NOTES
-############################################
-
-/*.bat
-/\!*
-.DS_Store
-*.pdf
-
 ############################################
 ## LATEX TEMPORARY FILES
 ############################################
@@ -38,10 +26,3 @@
 
 *.dvi
 *.ps
-
-############################################
-# do not upload secret infomation
-myresume.tex
-myresume.pdf
-myresume-zh_CN.tex
-myresume-zh_CN.pdf
