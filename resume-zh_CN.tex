@@ -65,17 +65,18 @@
   \item 能够正确的渲染材质的粗糙度。
 \end{itemize}
 
-\datedsubsection{\textbf{MIPS-CPU}}{\url{https://github.com/shuaitq/MIPS-CPU}}
-\role{Verilog}{MIPS32 Release 1指令集的五级流水线CPU}
-\begin{itemize}
-  \item 五级整数流水线，分别是：取指、译码、执行、访存、回写。
-  \item 哈佛结构，分开的指令、数据接口。
-  \item 支持延迟转移，大多数指令可以在一个时钟周期内完成。
-\end{itemize}
+%\datedsubsection{\textbf{MIPS-CPU}}{\url{https://github.com/shuaitq/MIPS-CPU}}
+%\role{Verilog}{MIPS32 Release 1指令集的五级流水线CPU}
+%\begin{itemize}
+%  \item 五级整数流水线，分别是：取指、译码、执行、访存、回写。
+%  \item 哈佛结构，分开的指令、数据接口。
+%  \item 支持延迟转移，大多数指令可以在一个时钟周期内完成。
+%\end{itemize}
 
 \datedsubsection{\textbf{Aurora}}{\url{https://github.com/shuaitq/Aurora}}
 \role{C++}{CPU计算光栅化渲染器}
 \begin{itemize}
+  \item 支持使用json格式定义场景、相机、灯光等参数。
   \item 采用obj格式模型，ppm格式图片贴图，二次线性差值进行采样，平铺纹理坐标寻址。
   \item 支持方向光和点光源两种光源。
   \item 采用Z-Buffer保证渲染正确的顺序，支持背面消影和三角形剔除。
