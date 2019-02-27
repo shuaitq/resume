@@ -2,11 +2,11 @@ SRC = $(wildcard *.tex)
 
 PDFS = $(SRC:.tex=.pdf)
 
-all:	clean en zh_CN photo
+all:	clean en zh photo
 
 en:	clean resume.pdf
 
-zh_CN:	clean resume-zh_CN.pdf
+zh:	clean resume-zh.pdf
 
 photo:	clean resume_photo.pdf
 

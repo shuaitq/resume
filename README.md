@@ -5,7 +5,7 @@
 # 构建
 
 ```shell
-make zh_CN
+make zh
 make en
 make photo
 ```
