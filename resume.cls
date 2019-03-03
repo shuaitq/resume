@@ -12,7 +12,7 @@
 \RequirePackage{hyperref}
 \hypersetup{hidelinks}
 \RequirePackage{url}
-\urlstyle{tt}
+\urlstyle{same}
 % use fontawesome
 \RequirePackage{fontawesome}
 % use xcolor for customizing color
