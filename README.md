@@ -1,6 +1,6 @@
 # Tom Smith's resume
 
-My resume, based on this [template](https://github.com/billryan/resume)
+My resume, based on this [template](https://github.com/billryan/resume)  
 个人简历，基于[模板](https://github.com/billryan/resume)
 
 # Build/构建
