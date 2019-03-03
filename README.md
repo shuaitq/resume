@@ -2,7 +2,7 @@
 
 个人简历，基于[模板](https://github.com/billryan/resume)
 
-# 构建
+# Build
 
 ```shell
 make zh
@@ -10,7 +10,7 @@ make en
 make photo
 ```
 
-# 下载
+# Download/下载
 
 * [中文版(pdf)](https://github.com/shuaitq/resume/blob/master/resume-zh.pdf)
 * [English version(pdf)](https://github.com/shuaitq/resume/blob/master/resume.pdf)
