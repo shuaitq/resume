@@ -13,3 +13,4 @@ make photo
 # 下载
 
 * [中文版(pdf)](https://github.com/shuaitq/resume/blob/master/resume-zh.pdf)
+* [English version(pdf)](https://github.com/shuaitq/resume/blob/master/resume.pdf)
