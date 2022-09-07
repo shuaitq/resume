@@ -21,3 +21,11 @@ jobs:
         with:
           name: resume
           path: ./*.pdf
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: github.ref == 'master'
+        with:
+          files: |
+            resume.pdf
+            resume-zh.pdf
+            resume_photo.pdf
