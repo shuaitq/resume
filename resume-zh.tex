@@ -18,37 +18,56 @@
 \basicInfo{
   \email{i@shuaitq.com} \textperiodcentered\ 
   \phone{(+86) 151-1537-2806} \textperiodcentered\ 
-  \github[shuaitq]{https://github.com/shuaitq}}
-% \textperiodcentered\ 
-%  \homepage[Tom Smith's]{http://shuaitq.com}}
+  \github[shuaitq]{https://github.com/shuaitq} \textperiodcentered\ 
+  \homepage{http://shuaitq.com}}
 
 \section{\texorpdfstring{\faGraduationCap\ 教育背景}{教育背景}}
-\datedsubsection{\textbf{哈尔滨工业大学（威海）}, 山东}{2016 -- 至今}
-\textit{本科生}\ 计算机科学与技术, 预计 2020 年 6 月毕业
+\datedsubsection{\textbf{哈尔滨工业大学（威海）}, 山东}{2016 -- 2020}
+\textit{学士}\ 计算机科学与技术
 
 \section{\texorpdfstring{\faCogs\ 专业技能}{专业技能}}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C++ with C++11 = C > Java = Python = Go > Haskell > Rust
-  \item 熟练使用Linux，日常使用Linux进行开发
-  \item 熟练掌握算法、数据结构、操作系统、硬件结构等知识
-  \item 有使用Git版本管理，GitHub团队协作工具经验，了解现代软件开发流程
+  \item 编程语言: C++/Java
+%  \item 熟悉Linux，在Linux上做过一些开发工作，使用过几台云服务器
+%  \item 对计算机底层技术和Web技术非常感兴趣
+  \item 熟悉计算机体系结构，了解CPU缓存、原子操作、内存屏障原理
+  \item 参加过ACM竞赛，掌握常用算法和数据结构
+  \item 熟悉Web开发，能够使用Spring框架完成工作任务
+%  \item 熟练掌握算法、数据结构、操作系统、硬件结构等知识
+%  \item 有使用Git版本管理，GitHub团队协作工具经验，了解现代软件开发流程
 \end{itemize}
 
-\section{\texorpdfstring{\faUsers\ 项目经历}{项目经历}}
-\datedsubsection{\textbf{P2P虚拟网络安全互联}}{2017年9月 -- 2018年1月}
-\role{C, Linux}{实验室项目，基于对等网络设计，能穿透部分种类NAT，支持多种加密算法，实现跨网络安全互联}
+\section{\texorpdfstring{\faUsers\ 工作经历}{工作经历}}
+% \datedsubsection{\textbf{虚拟网络安全互联}, 学校实验室}{2017年9月 -- 2018年1月}
+% \role{C, Linux}{使用网络代理的形式，在上层应用不需要修改的情况下保护应用流量}
+% \begin{itemiz%e}
+%   \item 使用epoll技术实现服务端多路IO复用
+%   \item 使用Google的开源加密库libsodium实现多种加密方式支持
+% \end{itemize}
+
+% \datedsubsection{\textbf{安全WiFi App}}{2018年1月 -- 2018年2月}
+% \role{Java, Android}{实验室项目，根据当前网络和授信列表，在不安全网络自动开启加密连接，保护上网安全}
+% \begin{itemize}
+%   \item 按照美工设计，实现了界面效果和界面逻辑
+%   \item 对接学长加密连接服务，能够正确处理网络切换事件
+% \end{itemize}
+
+\datedsubsection{\textbf{拼多多}, 上海}{2020年7月 -- 至今}
+\role{Java, Spring}{服务端研发工程师}
 \begin{itemize}
-  \item 参与基于UDP的通信协议和心跳包机制设计
-  \item 与学姐合作实现出第一版服务端和客户端程序
-  \item 参与多平台复用库架构设计，参考DPDK的无锁环形队列实现
+  \item 主要负责站外落地页系统维护和新需求开发，其次使用Hive进行数据处理和数据分析。
+  \item 开发智能样式系统，根据Hive离线数据，采用优化CVR或COR的策略决定未来一天不同渠道和位置展示的样式。
+  \item 落地页系统接入公司AB测试系统，完成后续数据埋点，使用Hive处理数据并算好标准差导回AB系统做展示和分析。
+  \item 新增落地页数据源，接入公司数据Hive表，经过Hive处理后导出到MySQL或HBase供服务使用。
 \end{itemize}
 
-\datedsubsection{\textbf{安全WiFi App}}{2018年1月 -- 2018年2月}
-\role{Java, Android}{实验室项目，根据当前网络和授信列表，在不安全网络自动开启加密连接，保护上网安全}
+\datedsubsection{\textbf{拼多多}, 上海}{2019年7月 -- 2019年8月}
+\role{Java, Spring}{服务端研发实习生}
 \begin{itemize}
-  \item 按照美工设计，实现了界面效果和界面逻辑
-  \item 对接学长加密连接服务，能够正确处理网络切换事件
+  \item 熟悉Java和Spring框架，完成新手项目编写。
+  \item 根据阿里汇川广告API接入文档，完成阿里汇川渠道广告创建接入，能够批量创建图片视频广告，使用线程池并行化。
+  \item 分析Java中使用包装类型和使用基础类型性能和内存占用的差异。
 \end{itemize}
 
 % Reference Test
@@ -60,44 +79,51 @@
 
 \section{\texorpdfstring{\faGithubAlt\ 个人项目}{个人项目}}
 \datedsubsection{\textbf{MoonLight}}{\url{https://github.com/shuaitq/MoonLight}}
-\role{C++}{无偏蒙特卡洛路径追踪的全局光照渲染器}
+\role{C++}{软件光线追踪渲染器}
 \begin{itemize}
-  \item 支持三种相机模型：透视相机、鱼眼相机、正交相机
-  \item 支持三种材质：玻璃、镜面、磨砂材质
-  \item 正确的渲染材质的粗糙度
+  \item 支持三种相机模型：透视相机、鱼眼相机、正交相机。
+  \item 支持三种材质：玻璃、镜面、磨砂材质。
+  \item 能够正确渲染材质的粗糙度。
 \end{itemize}
 
-%\datedsubsection{\textbf{MIPS-CPU}}{\url{https://github.com/shuaitq/MIPS-CPU}}
-%\role{Verilog}{MIPS32 Release 1指令集的五级流水线CPU}
-%\begin{itemize}
-%  \item 五级整数流水线，分别是：取指、译码、执行、访存、回写
-%  \item 哈佛结构，分开的指令、数据接口
-%  \item 支持延迟转移，大多数指令可以在一个时钟周期内完成
-%\end{itemize}
+\datedsubsection{\textbf{MIPS-CPU}}{\url{https://github.com/shuaitq/MIPS-CPU}}
+\role{Verilog}{MIPS32 Release 1指令集五级流水线CPU}
+\begin{itemize}
+  \item 支持69条MIPS指令，大多数指令可以在一个时钟周期内完成。
+  \item 五级整数流水线，分别是：取指、译码、执行、访存、回写。
+\end{itemize}
+
+% \datedsubsection{\textbf{EmbeddedCD}}{\url{https://github.com/shuaitq/EmbeddedCD}}
+% \role{Python3, Raspberry Pi}{使用树莓派制作的温湿度监控}
+% \begin{itemize}
+%   \item 使用DHT22温湿度传感器读取环境温湿度，并写入sqlite3数据库存储
+%   \item 使用Python3 Flask框架实现后端，前端使用ECharts绘制24小时温湿度曲线，JS定时更新页面
+%   \item 使用PyQt实现桌面端，使用PyQtChart绘制最近5分钟温湿度曲线，实时更新
+% \end{itemize}
 
 \datedsubsection{\textbf{Aurora}}{\url{https://github.com/shuaitq/Aurora}}
 \role{C++}{软件光栅化渲染器}
 \begin{itemize}
-  \item 支持使用json格式定义场景、相机、灯光等参数
-  \item 采用obj格式模型，ppm格式贴图，支持双线性过滤
-  \item 支持方向光和点光源两种光源
-  \item 采用Z-Buffer保证渲染正确的顺序，支持背面消隐和三角形剔除
+%  \item 使用json格式定义场景、相机、灯光等参数
+  \item 采用obj格式模型，ppm格式贴图，支持双线性过滤。
+  \item 支持方向光和点光源两种光源。
+  \item 采用Z-Buffer保证渲染正确的顺序，支持背面消隐和三角形剔除。
 \end{itemize}
 
 \section{\texorpdfstring{\faHeartO\ 获奖情况}{获奖情况}}
-\datedline{\textit{三等奖}, 第八届山东省ACM大学生程序设计竞赛}{2017年5月}
-\datedline{\textit{提高组二等奖}, 湖南省Noip2015}{2015年11月}
-\datedline{\textit{提高组二等奖}, 湖南省Noip2014}{2014年11月}
-\datedline{\textit{提高组三等奖}, 湖南省Noip2013}{2013年11月}
+\datedline{\textit{铜奖}, 第八届山东省ACM大学生程序设计竞赛}{2017年5月}
+% \datedline{\textit{提高组二等奖}, 湖南省Noip2015}{2015年11月}
+% \datedline{\textit{提高组二等奖}, 湖南省Noip2014}{2014年11月}
+% \datedline{\textit{提高组三等奖}, 湖南省Noip2013}{2013年11月}
 
-\section{\texorpdfstring{\faInfo\ 其他}{其他}}
+% \section{\texorpdfstring{\faInfo\ 其他}{其他}}
 % increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 博客：\url{http://shuaitq.com}
-  \item 获取此简历的最新版本：\url{https://github.com/shuaitq/resume}
-  \item 热爱学习新的技术和知识，乐于交朋友
+% \begin{itemize}[parsep=0.5ex]
+%  \item 博客：\url{http://shuaitq.com}
+%  \item 获取此简历的最新版本：\url{https://github.com/shuaitq/resume}
+%  \item 热爱学习新的技术和知识，乐于交朋友
 %  \item 语言: 英语 - 四级
-\end{itemize}
+% \end{itemize}
 
 %% Reference
 %\newpage
