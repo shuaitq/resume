@@ -20,7 +20,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: resume
-          path: /*.pdf
+          path: ./*.pdf
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
