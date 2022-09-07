@@ -7,40 +7,57 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{Tom Smith}
+\name{Tianqiang Shuai}
 
 \basicInfo{
   \email{i@shuaitq.com} \textperiodcentered\ 
   \phone{(+86) 151-1537-2806} \textperiodcentered\ 
-  \github[shuaitq]{https://github.com/shuaitq}}% \textperiodcentered\ 
-%  \homepage[Tom Smith's]{http://shuaitq.com}}
+  \github[shuaitq]{https://github.com/shuaitq} \textperiodcentered\ 
+  \homepage{http://shuaitq.com}}
 
 \section{\texorpdfstring{\faGraduationCap\ Educational Background}{Educational Background}}
-\datedsubsection{\textbf{Harbin Institute of Technology at Weihai}, Shandong, China}{09/16 -- Present}
-\textit{Undergraduate student} in Computer Science and Technology, expected to graduate on 06/20
+\datedsubsection{\textbf{Harbin Institute of Technology at Weihai}, Shandong, China}{09/16 -- 07/20}
+\textit{B.S} in Computer Science and Technology
 
 \section{\texorpdfstring{\faCogs\ Professional Skills}{Professional Skills}}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C++ with C++11 = C > Java = Python = Go > Haskell > Rust
-  \item A master of utilizing Linux，which is used for daily development
-  \item Proficiency in algorithms, data structures, operating systems, hardware structures, etc
-  \item Have experience with version control tool like Git, team tool like GitHub, and understand modern software development process
+  \item Programming Languages: C++/Java
+  \item Familiar with computer architecture, understand the principles of CPU cache, atomic operation and memory barrier
+  \item Participated in ACM-ICPC, familiar with algorithm and data structure
+  \item Familiar with web development, able to use Spring framework to complete work tasks
 \end{itemize}
 
-\section{\texorpdfstring{\faUsers\ Project Experience}{Project Experience}}
-\datedsubsection{\textbf{P2P virtual network interconnection}}{09/17 -- 01/18}
-\role{C, Linux}{Lab project, based on P2P network design, can penetrate some types of NAT and support multiple encryption algorithms to achieve secure interconnection across networks}
+\section{\texorpdfstring{\faUsers\ Experience}{Experience}}
+% \datedsubsection{\textbf{P2P virtual network interconnection}}{09/17 -- 01/18}
+% \role{C, Linux}{Lab project, based on P2P network design, can penetrate some types of NAT and support multiple encryption algorithms to achieve secure interconnection across networks}
+% \begin{itemize}
+%   \item Participate in the design of UDP-based communication protocols and heartbeat packet mechanism
+%   \item Complete the first version of the server-side and client-side design in cooperation with the senior
+%   \item Participate in the design of multi-platform library architecture, referring to the implementation of DPDK's lock-free ring buffer
+% \end{itemize}
+
+% \datedsubsection{\textbf{Secure WiFi App}}{01/18 -- 02/18}
+% \role{Java, Android}{Lab project, according to the current network and credit list, the encrypted connection will open automatically to protect information security}
+% \begin{itemize}
+%   \item According to the art design, complete the interface effect and interface logic
+%   \item Dock with seniors' encrypted connection service to properly handle network handoff event
+% \end{itemize}
+
+\datedsubsection{\textbf{Pinduoduo}}{07/20 -- Present}
+\role{Java, Spring}{Software engineer}
 \begin{itemize}
-  \item Participate in the design of UDP-based communication protocols and heartbeat packet mechanism
-  \item Complete the first version of the server-side and client-side design in cooperation with the senior
-  \item Participate in the design of multi-platform library architecture, referring to the implementation of DPDK's lock-free ring buffer
+  \item Mainly responsible for maintain the landing page system and develop new requirements, secondly use Hive for data processing and data analysis.
+  \item Develop a smart style system, and use the strategy of optimizing CVR or COR to determine which style to display in different channels and locations in the next day based on Hive offline data.
+  \item Connect the landing page system to the company's AB test system, complete subsequent data processing for display and analysis.
+  \item Add new landing page data sources, access the company Hive table, and export it to the MySQL or HBase for service use after Hive processing.
 \end{itemize}
 
-\datedsubsection{\textbf{Secure WiFi App}}{01/18 -- 02/18}
-\role{Java, Android}{Lab project, according to the current network and credit list, the encrypted connection will open automatically to protect information security}
+\datedsubsection{\textbf{Pinduoduo}}{07/19 -- 08/19}
+\role{Java, Spring}{Intern}
 \begin{itemize}
-  \item According to the art design, complete the interface effect and interface logic
-  \item Dock with seniors' encrypted connection service to properly handle network handoff event
+  \item Familiar with Java and Spring framework, complete novice project writing.
+  \item According to the Alibaba Huichuan advertising API document, complete function development, able to create image and video ads in batches and use thread pool to parallelize.
+  \item Analyze the difference in performance and memory usage between wrapper classes and primitive data types in Java.
 \end{itemize}
 
 % Reference Test
@@ -52,35 +69,42 @@
 
 \section{\texorpdfstring{\faGithubAlt\ Personal Projects}{Personal Projects}}
 \datedsubsection{\textbf{MoonLight}}{\url{https://github.com/shuaitq/MoonLight}}
-\role{C++}{A global illumination renderer using unbiased Monte Carlo path tracing}
+\role{C++}{A software ray tracing renderer}
 \begin{itemize}
-  \item Support for three camera models: perspective camera, fisheye camera and orthographic camera
-  \item Support for three materials: glass, mirror and matte materials
-  \item Render material roughness correctly
+  \item Support for three camera models: perspective camera, fisheye camera and orthographic camera.
+  \item Support for three materials: glass, mirror and matte materials.
+  \item Able to render the roughness of the material correctly.
+\end{itemize}
+
+\datedsubsection{\textbf{MIPS-CPU}}{\url{https://github.com/shuaitq/MIPS-CPU}}
+\role{C++}{MIPS32 Release 1 instruction set five-stage pipelined CPU}
+\begin{itemize}
+  \item Support 69 MIPS instructions, most instructions can be completed in one clock cycle.
+  \item The five-stage integer pipeline includes: fetching, decoding, execution, memory access and write-back. 
 \end{itemize}
 
 \datedsubsection{\textbf{Aurora}}{\url{https://github.com/shuaitq/Aurora}}
 \role{C++}{A software raster renderer}
 \begin{itemize}
-  \item Support for using json to define parameters such as scene, camera, light, and so on
-  \item Adopt obj format model, ppm format texture, and support bilinear filtering
-  \item Support both directional and point light
-  \item Use Z-Buffer to ensure the correct order of rendering, and support back-face culling and triangle culling
+%   \item Support for using json to define parameters such as scene, camera, light, and so on
+  \item Adopt obj format model, ppm format texture, and support bilinear filtering.
+  \item Support both directional and point light.
+  \item Use Z-Buffer to ensure the correct order of rendering, and support back-face culling and triangle culling.
 \end{itemize}
 
 \section{\texorpdfstring{\faHeartO\ Honors and Awards}{Honors and Awards}}
-\datedline{\textit{\nth{3} Prize}, The 2017 ACM-ICPC China Shandong Provincial Programming Contest}{05/17}
-\datedline{\textit{\nth{2} Prize}, \nth{21} National Olympiad in Informatics in Provinces - Hunan Division}{11/15}
-\datedline{\textit{\nth{2} Prize}, \nth{20} National Olympiad in Informatics in Provinces - Hunan Division}{11/14}
-\datedline{\textit{\nth{3} Prize}, \nth{19} National Olympiad in Informatics in Provinces - Hunan Division}{11/13}
+\datedline{\textit{Bronze Award}, The 2017 ACM-ICPC China Shandong Provincial Programming Contest}{05/17}
+% \datedline{\textit{\nth{2} Prize}, \nth{21} National Olympiad in Informatics in Provinces - Hunan Division}{11/15}
+% \datedline{\textit{\nth{2} Prize}, \nth{20} National Olympiad in Informatics in Provinces - Hunan Division}{11/14}
+% \datedline{\textit{\nth{3} Prize}, \nth{19} National Olympiad in Informatics in Provinces - Hunan Division}{11/13}
 
-\section{\texorpdfstring{\faInfo\ Miscellaneous}{Miscellaneous}}
-\begin{itemize}[parsep=0.5ex]
-  \item Blog: \url{http://shuaitq.com}
-  \item Get the newest version of this resume: \url{https://github.com/shuaitq/resume}
-  \item Love learning new skills and knowledge, and be happy to make friends
-%  \item Languages: English - Fluent, Mandarin - Native speaker
-\end{itemize}
+% \section{\texorpdfstring{\faInfo\ Miscellaneous}{Miscellaneous}}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Blog: \url{http://shuaitq.com}
+%   \item Get the newest version of this resume: \url{https://github.com/shuaitq/resume}
+%   \item Love learning new skills and knowledge, and be happy to make friends
+%   \item Languages: English - Fluent, Mandarin - Native speaker
+% \end{itemize}
 
 %% Reference
 %\newpage
