@@ -19,7 +19,8 @@ jobs:
         run: make photo
       - uses: actions/upload-artifact@v3
         with:
-          path: *.pdf
+          name: resume
+          path: /*.pdf
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
