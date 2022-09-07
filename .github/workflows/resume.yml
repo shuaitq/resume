@@ -9,6 +9,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: Install XeLaTeX
+        run: apt-get install texlive-xetex
       - name: Make zh
         run: make zh
       - name: Make en
