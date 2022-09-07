@@ -17,6 +17,9 @@ jobs:
         run: make en
       - name: Make photo
         run: make photo
+      - uses: actions/upload-artifact@v3
+        with:
+          path: *.pdf
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
