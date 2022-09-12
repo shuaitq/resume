@@ -56,15 +56,18 @@
 \datedsubsection{\textbf{拼多多}, 上海}{2021年7月 -- 2022年3月}
 \role{C++, Flink}{\textbf{DSP组}\quad 服务端研发工程师}
 \begin{itemize}
-  \item 负责组内K8s集群Spring管控服务维护开发，使用Flink处理数据供在线服务使用。
-  \item 负责C++特征存储服务开发和运维，管理在线服务查询特征和特征部署问题。
-  \item 使用Valgrind分析解决C++特征构建库两个内存泄漏问题，解决构建HQL任务内存溢出失败问题。
+  \item 负责组内K8s集群Spring管控服务维护开发，新增telegraf采集K8s指标。
+  \item 将多个数据处理Flink任务流处理、批处理两份代码统一成一份代码，方便后续维护。
+  \item 负责C++存储服务开发，将特征查询服务改为通用查询服务，profiler请求耗时稍微减少。
+  \item 负责C++存储服务运维，迁移十多个原有特征查询到通用查询，管理新特征数据部署。
+  \item 使用Valgrind分析解决C++特征构建库两个内存泄漏问题，解决特征HQL任务内存溢出失败问题。
 \end{itemize}
 
 \datedsubsection{\textbf{拼多多}, 上海}{2020年7月 -- 2021年6月}
 \role{Java, Spring, Hive}{\textbf{广告投放组}\quad 服务端研发工程师}
 \begin{itemize}
   \item 负责站外落地页后端Spring服务维护，完成产品需求和对接前端开发。
+  \item 落地页新增多个数据源，接入商品评论、秒杀活动等数据，供前端展示使用。
   \item 开发下载能力屏蔽系统，支持根据地域、机型、渠道、资源位、触发次数等限制屏蔽下载能力。
   \item 使用Hive离线处理广告埋点数据，导入报表系统展示成报表。
   \item 服务接入AB测试系统，能自动创建关闭AB实验，用Hive处理埋点数据导回AB系统做展示分析。
@@ -76,7 +79,7 @@
 \begin{itemize}
   \item 熟悉Java和Spring框架，完成新手项目编写，组长验收通过。
   \item 根据阿里汇川广告API接入文档，完成阿里汇川渠道广告创建接入，能够批量创建图片视频广告。
-  \item 分析Java中使用包装类型和使用基础类型性能和内存占用的差异，总结成组内文档。
+  \item 分析Java中包装类型和基础类型性能和内存占用的差异，总结成组内文档。
 \end{itemize}
 
 % Reference Test
